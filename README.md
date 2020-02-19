@@ -1,14 +1,20 @@
 # notification_handler
 
-A new Flutter package project.
+Handle event notifications and provide state for Flutter app.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Futter has `Notification` to notify events
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Futter provides a mechanism `Notification` to propagate the event
+through the widget tree.
+
+Typically, there is a `ScrollNotification` to signal that scrolling has
+taken place.
+
+This library provides a way to handle event `notification`s.
+This consolidates business logic and makes it easier to design in
+accordance with the BLoC architecture.
+
+
+
